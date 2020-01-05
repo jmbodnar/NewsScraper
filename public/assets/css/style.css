@@ -1,0 +1,61 @@
+body {
+  display:grid;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.125rem;
+}
+
+.jumbotron {
+  background: url("/assets/images/header.jpg") no-repeat fixed center center /
+    cover;
+  min-height: 17rem;
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  background: hsl(210, 10.3%, 22.7%);
+  padding: 0;
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__link {
+  display: inline-block;
+  color: white;
+  padding: 1rem;
+}
+
+.nav__link:hover {
+  background: hsla(210, 10.3%, 30%);
+  text-decoration: none;
+  color: hsl(42.8, 83.7%, 54.3%);
+}
+
+.nav__link--active {
+  color: hsl(42.8, 83.7%, 54.3%);
+}
+
+main {
+  margin-top: 1rem;
+}
+
+footer {
+  min-height: 4rem;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(210, 10.3%, 22.7%);
+  color:white;
+}
